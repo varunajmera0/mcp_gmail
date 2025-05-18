@@ -1,0 +1,8 @@
+fastmcp
+google-api-python-client
+google-auth-oauthlib
+pydantic
+click
+PyPDF2
+python-dotenv
+pydantic-settings
