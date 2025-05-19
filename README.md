@@ -47,7 +47,9 @@ pip install -e .
    * Create OAuth 2.0 credentials (Desktop app) and download as `credentials.json`.
    * Register redirect URI: `http://localhost:8080/` and `http://localhost:8000/`.
    * If using External OAuth, add yourself as a **Test user** or publish the consent screen.
-
+   ![Add User](docs/images/add_user.png)
+   ![Redirect](docs/images/clientid_redirect.png)
+   * 
 ## Usage
 
 ### Start the MCP server
