@@ -44,12 +44,15 @@ pip install -e .
    ```
 3. In Google Cloud Console:
 
-   * Create OAuth 2.0 credentials (Desktop app) and download as `credentials.json`.
-   * Register redirect URI: `http://localhost:8080/` and `http://localhost:8000/`.
-   * If using External OAuth, add yourself as a **Test user** or publish the consent screen.
+   * Go to APIs & Services → Library, search for Gmail API, and click Enable. 
+   * Then go to APIs & Services → Credentials and click Create Credentials → OAuth client ID. 
+   * Select Desktop app, give it a name, and click Create. 
+   * Download the JSON and save it as credentials.json in your project root. 
+   * Under your new client’s settings, add the redirect URI: `http://localhost:8080/` and `http://localhost:8000/`. 
+   * If using an External app, open OAuth consent screen, add your Google account under Test users, or publish the app., add your Google account under Test users, or publish the app.
    ![Add User](docs/images/add_user.png)
    ![Redirect](docs/images/clientid_redirect.png)
-   * 
+   
 ## Usage
 
 ### Start the MCP server
